@@ -1,9 +1,8 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- 4-bit register: four d_ff instances sharing the same clock and reset.
--- On every rising edge of clk, q captures the current value of d as a
--- single atomic 4-bit word.
+-- 4-bit register: four d_ff instances sharing the same clock and reset,
+-- one per bit.
 entity reg4 is
     port (
         clk   : in  std_logic;
@@ -25,14 +24,36 @@ architecture structural of reg4 is
     end component;
 
 begin
-    gen_bits: for i in 0 to 3 generate
-        bit_ff: d_ff
-            port map (
-                clk => clk,
-                rst => rst,
-                d   => d(i),
-                q   => q(i)
-            );
-    end generate gen_bits;
+    bit0: d_ff
+        port map (
+            clk => clk,
+            rst => rst,
+            d   => d(0),
+            q   => q(0)
+        );
+
+    bit1: d_ff
+        port map (
+            clk => clk,
+            rst => rst,
+            d   => d(1),
+            q   => q(1)
+        );
+
+    bit2: d_ff
+        port map (
+            clk => clk,
+            rst => rst,
+            d   => d(2),
+            q   => q(2)
+        );
+
+    bit3: d_ff
+        port map (
+            clk => clk,
+            rst => rst,
+            d   => d(3),
+            q   => q(3)
+        );
 
 end architecture structural;
