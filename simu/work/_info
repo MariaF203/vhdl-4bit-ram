@@ -1,0 +1,135 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maria/vhdl-4bit-ram/simu
+Ed_ff
+Z1 w1783326886
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8../src/d_ff.vhd
+Z5 F../src/d_ff.vhd
+l0
+L6 1
+V4RKz5zS^c;YKLhSQne63<3
+!s100 YP4Pi]abQD3RJ2TVW;mIN1
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1783327801
+!i10b 1
+Z8 !s108 1783327801.000000
+Z9 !s90 -reportprogress|300|-93|../src/d_ff.vhd|
+Z10 !s107 ../src/d_ff.vhd|
+!i113 1
+o-93
+Z11 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 4 d_ff 0 22 4RKz5zS^c;YKLhSQne63<3
+!i122 0
+l16
+L15 11
+VL:Fg??5`29=aEINRDbjj21
+!s100 SWF_b5TAYAW4fXhhi=1<U0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+o-93
+R11
+Ereg4
+R1
+R2
+R3
+!i122 1
+R0
+Z12 8../src/reg4.vhd
+Z13 F../src/reg4.vhd
+l0
+L7 1
+Vj=M6DCn=ahXAV7R=OEWd;2
+!s100 PADoA[B3ogG>5I]DBoiRi3
+R6
+31
+R7
+!i10b 1
+R8
+Z14 !s90 -reportprogress|300|-93|../src/reg4.vhd|
+Z15 !s107 ../src/reg4.vhd|
+!i113 1
+o-93
+R11
+Astructural
+R2
+R3
+Z16 DEx4 work 4 reg4 0 22 j=M6DCn=ahXAV7R=OEWd;2
+!i122 1
+l27
+L16 23
+VL<?N7K6CA]D627jA;75g73
+!s100 ac<LcNeXHhRSHR]]N_[BO1
+R6
+31
+R7
+!i10b 1
+R8
+R14
+R15
+!i113 1
+o-93
+R11
+Ereg4_tb
+Z17 w1783326976
+R2
+R3
+!i122 2
+R0
+Z18 8reg4_tb.vhd
+Z19 Freg4_tb.vhd
+l0
+L7 1
+VkCBFDJ@6F4n_IXel7QU>V3
+!s100 Wbg43GLiO?MR?jmZVaTzC0
+R6
+31
+R7
+!i10b 1
+R8
+Z20 !s90 -reportprogress|300|-93|reg4_tb.vhd|
+!s107 reg4_tb.vhd|
+!i113 1
+o-93
+R11
+Asim
+R16
+R2
+R3
+DEx4 work 7 reg4_tb 0 22 kCBFDJ@6F4n_IXel7QU>V3
+!i122 2
+l17
+L10 42
+VkO<Q7z]RUkRd3jUR9m5lL1
+!s100 _j>PYn<<;cBgW:coJ@hR11
+R6
+31
+R7
+!i10b 1
+R8
+R20
+Z21 !s107 reg4_tb.vhd|
+!i113 1
+o-93
+R11
